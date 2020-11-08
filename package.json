@@ -1,0 +1,29 @@
+{
+  "name": "api-example-node",
+  "version": "1.0.0",
+  "description": "Estructura base de desarrollo de API en Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "watch": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://git.igna.com.ar/ignacio/api-base"
+  },
+  "author": "Ignacio Salaberría",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "connect-mongo": "^3.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.18",
+    "nodemailer": "^6.4.8",
+    "nodemon": "^2.0.4",
+    "uuid-v4": "^0.1.0"
+  }
+}
