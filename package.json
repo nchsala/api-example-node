@@ -23,7 +23,7 @@
     "express-session": "^1.17.1",
     "mongoose": "^5.9.18",
     "nodemailer": "^6.4.8",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.6",
     "uuid-v4": "^0.1.0"
   }
 }
